@@ -3,6 +3,8 @@ body {
     padding: 0;
     background: linear-gradient(to right, #030825, #1c2364, #4b3da6);
     color: white;
+    min-height: 100vh;
+    overflow-x: hidden;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -118,6 +120,8 @@ body {
         padding: 0;
         background: linear-gradient(to right, #030825, #1c2364, #4b3da6);
         color: white;
+        min-height: 100vh;
+        overflow-x: hidden;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
 
@@ -135,7 +139,7 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-         height: 94vh;
+        height: 94vh;
         background: radial-gradient(circle, #4b3da6, #1c2364, #030825);
     }
 
